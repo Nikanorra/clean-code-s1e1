@@ -13,7 +13,7 @@ body {
 .illustration img {
   width: 100%;
 }
-.more-inf {
+.more-info {
   font-family: fantasy, cursive;
 }
 @media (max-width: 768px) {
@@ -21,7 +21,7 @@ body {
     text-align: center;
   }
 }
-.centered-main-page-element {
+main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -39,7 +39,7 @@ ul {
   padding: 0px;
 }
 li,
-h3 {
+h2 {
   list-style: none;
 }
 input,
@@ -59,7 +59,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+h2,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
